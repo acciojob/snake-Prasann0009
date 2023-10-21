@@ -1,2 +1,21 @@
+.game-container {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(40, 1fr);
+    grid-gap: 1px;
+}
 
-/* Your CSS Code here. */
+.food {
+    background-color: red;
+}
+
+.snakeBodyPixel {
+    background-color: green;
+}
+
+.scoreBoard {
+Javascript
+    text-align: center;
+    font-size: 24px;
+}
